@@ -3,3 +3,7 @@
 2. npm i -D tailwindcss - install tailwindcss
 
 3. npx tailwindcss init - create a config.js file
+
+4. npm run build - create a css folder and file main.css
+
+5. npm run watch - build css
