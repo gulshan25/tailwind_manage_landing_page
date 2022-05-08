@@ -665,6 +665,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: hsl(227 12% 61% / var(--tw-text-opacity));
 }
 
+@media (min-width: 480px) {
+  .sm\:bg-brightRedLight {
+    --tw-bg-opacity: 1;
+    background-color: hsl(12 88% 69% / var(--tw-bg-opacity));
+  }
+}
+
 @media (min-width: 768px) {
   .md\:mb-4 {
     margin-bottom: 1rem;
@@ -710,6 +717,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     background-color: transparent;
   }
 
+  .md\:bg-brightRedLight {
+    --tw-bg-opacity: 1;
+    background-color: hsl(12 88% 69% / var(--tw-bg-opacity));
+  }
+
   .md\:py-1 {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
@@ -722,5 +734,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .md\:hover\:bg-brightRedLight:hover {
+    --tw-bg-opacity: 1;
+    background-color: hsl(12 88% 69% / var(--tw-bg-opacity));
   }
 }
