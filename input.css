@@ -21,6 +21,9 @@ body {
     #cta {
         background-image: url('../img/bg-simplify-section-mobile.svg');
     }
+    .space-x-2 {
+        background-color: hsl(12, 88%, 95%);
+    }
 }
 
 
